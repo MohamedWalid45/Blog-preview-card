@@ -1,0 +1,122 @@
+/*start Global*/
+* {
+     font-family: "Figtree", sans-serif;
+     margin: 0;
+     padding: 0;
+}
+.padding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*End Global*/
+/*start Body*/
+.body {
+    background-color: hsl(47, 88%, 63%);
+    width: 300vh;
+    height: 100vh;
+}
+
+/*End Body*/
+/*Start page*/
+.body .page {
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: black solid 1px;
+    box-shadow: black 7px 7px;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+/*End Page*/ 
+/*Start Image*/
+.body .page .image {
+    width: 90%;
+    padding: 15px;
+}
+
+.body .page .image img {
+    width: 100%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+
+/*End Image*/
+/*Start Text1*/
+
+.body .page .text1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    height: 25px;
+    margin-bottom:10px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+.body .page .text1 p {
+    color: hsl(0, 0%, 7%);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/*End Text1*/
+/*Start Text2*/
+
+.body .page .text2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.body .page .text2 p {
+    font-size: 13.3px;
+    margin-bottom:20px ;
+    color: hsl(0, 0%, 42%);
+}
+/*End Text2*/
+/*Start Picture*/
+.body .page .picture {
+    box-sizing: border-box;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.body .page .picture img {
+    height: 100%;
+    padding-right: 10px;
+}
+.body .page .picture h2 {
+    font-size: 15px;
+}
+
+
+/*End Picture*/
+
+
+
+
+
+
+
+
